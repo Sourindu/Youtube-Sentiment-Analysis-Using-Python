@@ -9,8 +9,8 @@ from apiclient.errors import HttpError;
 from oauth2client.tools import argparser;
 from openUrl import openURL as web
  
-##DEVELOPER_KEY = 'AIzaSyDHHWxvvvt6eojYOW0Y9O8h6JF7ScXRGi0';
-DEVELOPER_KEY = 'AIzaSyDz8_XTYvc-7e_VwkJEZqfHbQQEv5WYCOU'
+DEVELOPER_KEY = 'AIzaSyDHHWxvvvt6eojYOW0Y9O8h6JF7ScXRGi0';
+##DEVELOPER_KEY = 'AIzaSyDz8_XTYvc-7e_VwkJEZqfHbQQEv5WYCOU'
 YOUTUBE_API_SERVICE_NAME = "youtube";
 YOUTUBE_API_VERSION = "v3";
 

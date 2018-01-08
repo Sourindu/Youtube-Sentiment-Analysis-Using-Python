@@ -1,0 +1,31 @@
+Trump :
+['7f_p0VHeOM4', 'Thf8aQcGuHQ', 'A6vpF0D9wvA', 'hmuGjSwxFhc', 'V9uS6QI8BLQ', 'EjaLQwVmy9w', 
+'m7-9-_zQPoE', 'd-y2xHpO8sg', '8e_BrgBSRdY', '9qfACIeHv08', 'S8MXKdXl6Wk', 'DIpvKTo8suQ', 
+'JUWSLlz0Fdo', 'BUnv6Kb7syQ', 'FYKU_5XaS0Q', 'XdS-M_F0B-U', '2emrFAEAows', 
+'yELV238wr-k', 'pw7Q3_o_e4s', '-rSDUsMwakI', 'NMZ0GuMWkGE', 'jCIzrYOvzpg', 'UhSaWb5kjcc'] 
+
+Ronaldo :
+['TqHwZl033Z8', 'jm8AXIxyGvY', 'fqr0yA6dHOw', '17QJLqLQkpI', 'Ju-SQr2_ahU', 'bTk5ZcL0XZ4', 
+'sYZ60ZJED1Y', 'm3NOG5tjFCI', 'DZEvM1qsYLM', 'wFg5Fkmz3Pc', 'Xke1qYbc9A4', 'uCac6gIsckU', 
+'jPm09rXDHF4', 'butbYoL6M4M', 'bloEWTo2q38', '3gxHlpiQqvk', 'f3DWcFsnNwg', 'Wdsu5w8bvZQ', 
+'XUJf9Zpl-t0', 
+'WBMVYC74P7k', 'GXOom6pZUzI', 'MhwseODazhM', 'aizJOst5RpY', '2sJKHj2YVHc', '6DNt1Libvvs'] 
+
+Closer Guitar Lessons:
+['P5uH0-5YpIk', 'UJ2jlCc0UMo', 'cj5YcPXhYWk', 'e_whMr9Qfzs', 'rIMiWchmsTs', 'K_qRWb9RMHI', '2PrdwTFM48k', 'H7hp9mPCbOw', 'LtnWCD7nHhc', 'GFsbATwjEJM', 'BYzZaxavNPA', 'KCuCEAwBq2Q', 'geOi1sz3s08', 'hKsZ1aIMwkU', 'AfHvNo2oIqs', 'fldsARukLsw', 'ItTb4tagCFk', 'bjMnLKnir9E', 'XCVxLQZODOs', '6FU5ilaRxKs', '0qFj_AYI1is', 'x4M9r_HkmKw', 'q-WSq_tkqy8', '6jvfrQfKxfY', 'OoDuzdoM_Kc']
+
+Vader Link :
+http://comp.social.gatech.edu/papers/icwsm14.vader.hutto.pdf
+
+http://blog.algorithmia.com/benchmarking-sentiment-analysis-algorithms/
+
+from textblob import TextBlob
+>>> from textblob.sentiments import NaiveBayesAnalyzer
+>>> blob = TextBlob("I love this library")
+>>> blob.sentiment
+Sentiment(polarity=0.5, subjectivity=0.6)
+>>> blob.sentiment.polarity
+0.5
+>>> blob = TextBlob("This is very bad")
+>>> blob.sentiment.polarity
+-0.9099999999999998
